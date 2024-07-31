@@ -1,0 +1,306 @@
+@charset "utf-8";
+* {
+  font-family: Poppins;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.5px;
+  position: absolute;
+  color: #ff8400;
+}
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  position: absolute;
+  color: #000000;
+}
+/*
+body {
+  background-image: url("Foodee - Delivery Food Page.png");
+  background-color: #cccccc;
+  background-blend-mode: screen;
+  width: 1920px;
+}
+*/
+header {
+  width: 1487px;
+  height: 845px;
+  margin: 65px 208px;
+  display: inline-block;
+  position: relative;
+}
+button {
+  border-color: #ff8500;
+  border: solid;
+  height: 55px;
+  width: 214px;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  color: #ff8500;
+  display: inline-block;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#logo {
+  font-weight: 500;
+  font-size: 23px;
+  margin: 11px 0px;
+  display: inline-block;
+  position: absolute;
+}
+.nav {
+  display: inline;
+  position: absolute;
+  margin: 14px 0px 0px 399px;
+}
+ul.nav {
+  display: inline-block;
+  list-style: none;
+}
+ul.nav li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 59px;
+}
+ul.nav li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  color: #000000;
+}
+
+#buttons {
+  display: inline-block;
+  position: absolute;
+  margin-left: 1236px;
+}
+#buttons img {
+  display: inline-block;
+  margin-right: 22px;
+}
+#buttons a {
+  text-decoration: none;
+}
+#login {
+  background-color: #ff8400;
+  margin-left: 10px;
+  border: none;
+  height: 55px;
+  width: 143px;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  border-radius: 25px;
+  cursor: pointer;
+}
+#big-hero {
+  display: inline-block;
+  margin: 223px 0px 0px 0px
+}
+#big-hero h1 {
+  display: inline-block;
+  margin: 12px 0px;
+}
+#big-hero h2 {
+  font-weight: bold;
+  font-size: 88px;
+  margin: 79px 0px;
+  line-height: 107px;
+  word-spacing: -10px;
+  display: inline-block;
+  position: absolute;
+  color: #000000;
+}
+#big-hero p {
+  width: 787px;
+  margin: 345px 0px;
+  line-height: 31px;
+  font-family: Rubik;
+  word-spacing: 0px;
+  display: inline-block;
+  position: absolute;
+  color: #797979;
+}
+#big-hero #ordernow {
+  background-color: #ff8500;
+  margin: 486px 0px;
+  border: none;
+  height: 55px;
+  width: 167px;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#big-hero #trackorder {
+  margin: 486px 40px;
+}
+#big-hero #smileman {
+  margin: 59px 460px;
+  display: inline-block;
+  position: absolute;
+  height: 560px;
+  width: 560px;
+  background-color: #ff8400;
+  border-radius: 50%;
+}
+#big-hero #smileman img {
+  margin: -96px 14px;
+  display: inline-block;
+  position: absolute;
+}
+.orange {
+  color: #ff8400;
+}
+main {
+  width: 1920px;
+  height: 5097px;
+  margin-top: 60px;
+  display: inline-block;
+  position: relative;
+}
+#ourservice {
+  width: 1920px;
+  height: 669px;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+#ourservice h1 {
+  text-align: center;
+  position: relative;
+}
+#ourservice h2 {
+  margin-top: 12px;
+  text-align: center;
+  position: relative;
+}
+.services {
+  display: inline-block;
+  width: 300px;
+  height: 497px;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 240px;
+}
+.services img {
+  display: block;
+  margin-left: -25px;
+  position: absolute;
+  margin-top: -42px;
+  width: 120%;
+}
+.services h1 {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  margin-top: 303px;
+  font-size: 32px;
+}
+.services p {
+  font-size: 15px;
+  display: block;
+  line-height: 20px;
+  width: 280px;
+  text-align: center;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -4px;
+}
+#aboutus1 {
+  width: 1920px;
+  height: 569px;
+  display: block;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+}
+#pizza {
+  margin: 218px 204px;
+  display: inline-block;
+  position: absolute;
+  height: 360px;
+  width: 640px;
+  background-color: #ff8400;
+  border-radius: 350px 350px 0 0;
+}
+#aboutus1 h1 {
+  display: inline-block;
+  position: absolute;
+  margin: 272px 0px 0px 1050px;
+}
+#aboutus1 h2 {
+  display: inline-block;
+  position: absolute;
+  margin: 320px 0px 0px 1050px;
+}
+#aboutus1 p {
+  display: inline-block;
+  position: absolute;
+  font-size: 15px;
+  width: 651px;
+  text-align: justify;
+  line-height: 37px;
+  margin: 418px 0px 0px 1050px;
+}
+.viewmore {
+  margin: 673px 0px 0px 1050px;
+  width: 164px;
+}
+#pizza img {
+  margin: 20px;
+  height: 570px;
+}
+#aboutus2 {
+  width: 1920px;
+  height: 569px;
+  display: block;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+}
+#burger {
+  margin: 777px 1070px;
+  display: inline-block;
+  position: absolute;
+  height: 270px;
+  width: 657px;
+  background-color: #ff8400;
+  border-radius: 0 0 100px 100px;
+}
+#aboutus2 h1 {
+  display: inline-block;
+  position: absolute;
+  margin: 547px 0px 0px 210px;
+}
+#aboutus2 h2 {
+  display: inline-block;
+  position: absolute;
+  margin: 595px 0px 0px 210px;
+}
+#aboutus2 p {
+  display: inline-block;
+  position: absolute;
+  font-size: 15px;
+  width: 700px;
+  text-align: justify;
+  line-height: 37px;
+  margin: 690px 0px 0px 210px;
+}
+#aboutus2 .viewmore {
+  margin: 950px 0px 0px 210px;
+}
+#burger img {
+  margin: -389px 0px 0px 120px;
+  height: 600px;
+}
